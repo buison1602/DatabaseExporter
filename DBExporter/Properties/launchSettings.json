@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DBExporter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Server=BUISON; DATABASE=HR; Trusted_Connection=True; TrustServerCertificate=True\" -q:\"SELECT * FROM countries\" -f:D:\\Work_C#\\testDBExport123HAHAHA -server:SqlServer -format:csv"
+    }
+  }
+}
